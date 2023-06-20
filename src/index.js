@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-const sendEmail = require('./sendEmail');
-const view = require('./view');
+const sendEmail = require('./email');
+const view = require('./content');
 
 require('dotenv').config();
 
