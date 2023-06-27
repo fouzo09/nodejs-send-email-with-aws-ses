@@ -10,8 +10,8 @@ const PORT = process.env.PORT || 5000;
 
 app.get('/send-email', function(req, res){
 
-    const receiverName = 'SOW Safi';
-    const senderName = 'fouzo09';
+    const receiverName = 'Receiver Name';
+    const senderName = 'Sender Name';
     const emailSubject = `Prise de contact avec ${receiverName}`
 
     const emailContent = view(receiverName, senderName);
